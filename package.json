@@ -1,0 +1,17 @@
+{
+  "name": "@chenng/babel-plugin-ivcomponent",
+  "version": "1.0.0",
+  "main": "lib/babel-plugin-ivcomponent.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Chenng",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
