@@ -2,15 +2,30 @@
   "name": "@chenng/babel-plugin-ivcomponent",
   "version": "1.0.0",
   "main": "lib/babel-plugin-ivcomponent.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack"
   },
   "author": "Chenng",
   "license": "MIT",
   "description": "",
   "dependencies": {
     "@babel/core": "^7.9.6",
+    "@babel/generator": "^7.9.6",
+    "@babel/parser": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/template": "^7.8.6",
+    "@babel/types": "^7.9.6",
     "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }
