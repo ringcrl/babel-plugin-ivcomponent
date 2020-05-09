@@ -1,7 +1,11 @@
 {
   "name": "@chenng/babel-plugin-ivcomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/babel-plugin-ivcomponent.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ringcrl/babel-plugin-ivcomponent.git"
+  },
   "files": [
     "lib"
   ],
