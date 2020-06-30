@@ -10,7 +10,8 @@
     "lib"
   ],
   "scripts": {
-    "dev": "webpack"
+    "dev": "webpack --watch",
+    "build": "webpack"
   },
   "author": "Chenng",
   "license": "MIT",

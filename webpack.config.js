@@ -1,11 +1,12 @@
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
-module.exports = (env) => {
-  if (!env || !env.comp) {
+module.exports = () => {
+  const compName = process.env.comp;
+
+  if (!compName) {
     throw new Error('请参考 README，提供组件名称');
   }
-  const compName = env.comp;
 
   return {
     mode: 'development',
@@ -26,7 +27,6 @@ module.exports = (env) => {
         {
           test: /\.js$/,
           use: {
-            // loader: path.resolve(__dirname, './compile/iv-loader.js'),
             loader: 'babel-loader',
             options: {
               plugins: ['./lib/babel-plugin-ivcomponent.js'],

@@ -28,5 +28,9 @@ rules: [
 # 本地调试
 
 ```sh
-npm run dev -- --env.comp="Bubble" -w
+# 开发
+comp="Bubble" npm run dev
+
+# 打包
+comp="Bubble" npm run build
 ```
